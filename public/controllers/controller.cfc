@@ -38,7 +38,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 				$ = rc.$;
 			};
 			
-			if ( not rc.isFrontEndRequest ) {
+			if ( not variables.fw.isFrontEndRequest() ) {
 				fw.redirect(action='admin:main.default');
 			};
 		};
