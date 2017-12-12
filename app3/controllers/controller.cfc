@@ -2,7 +2,7 @@
 
 This file is part of MuraFW1
 
-Copyright 2010-2016 Stephen J. Withington, Jr.
+Copyright 2010-2017 Stephen J. Withington, Jr.
 Licensed under the Apache License, Version v2.0
 http://www.apache.org/licenses/LICENSE-2.0
 
@@ -20,10 +20,10 @@ component persistent="false" accessors="true" output="false" extends="mura.cfobj
 			return this;
 		}
 
-		public any function before(required struct rc) {
-			if ( !getFW().isFrontEndRequest() ) {
-				getFW().redirect(action='admin:main.default');
-			}
-		}
+		// public any function before(required struct rc) {
+		// 	if ( !getFW().isFrontEndRequest() ) {
+		// 		getFW().redirect(action='admin:main.default');
+		// 	}
+		// }
 
 }
