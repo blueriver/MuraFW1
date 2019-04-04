@@ -1,5 +1,7 @@
 # MuraFW1
 
+#This plugin is not longer under active development
+
 This is a base Mura CMS plugin using [FW/1 - Framework One](https://github.com/framework-one/fw1)
 as its application framework. It's intended to be used by experienced
 ColdFusion/CFML developers and those developers familiar with Framework One,
