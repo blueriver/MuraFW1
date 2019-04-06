@@ -10,5 +10,6 @@
 */
 
 include '../../config.fw1.cfm';
+structAppend(form,objectparams);
 WriteOutput( CreateObject( "#variables.framework.package#.Application" ).init( variables.framework ).doAction( 'app3:main.default' ) );
 </cfscript>
